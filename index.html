@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medikurthi Hariprasad Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://kit.fontawesome.com/a59bfcc625.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--navigation-->
+    <div id="header">
+        <div class="container active-section">
+            <nav>
+                <img src="images-resources/Screenshot 2024-01-21 012217.png" class="logo"></img>
+                <ul class="custom-list">
+                    <i class="fas fa-times"></i>
+                    <li class="nav-list close" onclick="openSection('header'); closeshow('header')">Home</li>
+                    <li class="nav-list" onclick="openSection('about-me'); closeshow('about-me')">About</li>
+                    <li class="nav-list" onclick="openSection('services'); closeshow('services')">Services</li>
+                    <li class="nav-list" onclick="openSection('portfolio'); closeshow('portfolio')">Portfolio</li>
+                    <li class="nav-list" onclick="openSection('contact'); closeshow('contact')">Contact</li>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p class="animate__animated animate__fadeInLeft animate__delay-1s">Software Engineer</p>
+                <h1 class="animate__animated animate__fadeInLeft animate__fast-10ms">Hi, I'm <span>Medikurthi Hariprasad</span><br>Passion On Webdevelopment</h1>
+            </div>
+        </div>
+    </div>
+    <!---about me section--->
+    <div id="about-me">
+        <div class="container">
+            <div class="row">
+                <div class="about-image">
+                    <img src="images-resources/HP.png.jpg"></img>
+                </div>
+                <div class="about-content">
+                    <h1 class="sub-title">About me</h1>
+                    <p class="data">Highly disciplined and meticulous individual with good 
+                        professional conduct and Computer science skills. I can able to create websites and can do data analysis to give valuable insights.
+                        I am goal oriented person with never give up attitude.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Creating / developing web pages</li>
+                            <li><span>Data Analytics</span><br>Analyzing Data / Visualizing Data</li>
+                            <li><span>Machine Learning</span><br>Building Machine Learning Models</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            
+                            <li><span>Jul | 2022 - Aug | 2022</span><br>Frontend Webdeveloper at Code clause.</li>
+                            <li><span>sep | 2022 - oct | 2022</span><br>Frontend Webdeveloper at Lets grow more.</li>
+                            <li><span>Feb | 2023 - April | 2023</span><br>Frontend Webdeveloper at Infobite.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B.Tech(Computer science & Technology With specialization In Artificial Intelligence) Graduation from MITS, Madanapalle</li>
+                            <li><span>2020</span><br>Intermediate from Narayana Junior college, Tirupathi</li>
+                            <li><span>2018</span><br>Schooling from Zilla parishad High School,Kuppam</li>
+                        </ul>
+                    </div>
+                </div>    
+            </div>    
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div class="service">
+                    <i class="fa-solid fa-code fa-beat-fade" style="color: black"></i>
+                    <h1>Web Development</h1>
+                    <p>I offer web development services that cater to your unique 
+                        needs, crafting responsive and user-friendly websites to 
+                        enhance your online presence and drive business growth. 
+                        With a focus on creativity and efficiency, 
+                        I deliver top-notch solutions tailored to elevate your digital experience.</p>
+                    <a href="https://www.geeksforgeeks.org/web-development/" class="learn-more">Learn more</a>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-chart-line fa-beat-fade" style="color: black;"></i>
+                    <h1>Data Analytics</h1>
+                    <p>I offer expert data analytics services, leveraging advanced tools
+                         and techniques to derive actionable insights from your data,
+                        enabling data-driven decision-making for your business's success.</p>
+                    <a href="https://www.investopedia.com/terms/d/data-analytics.asp" class="learn-more">Learn more</a>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-robot fa-beat-fade" style="color: black;"></i>
+                    <h1>Machine Learning</h1>
+                    <p>I specialize in providing cutting-edge Machine Learning models 
+                        that deliver actionable insights and enhanced predictive 
+                        capabilities. With a focus on accuracy and efficiency, 
+                        my services empower businesses to harness the potential of 
+                        data and make data-driven decisions with confidence.</p>
+                    <a href="https://www.geeksforgeeks.org/machine-learning/" class="learn-more">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images-resources/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>Music Website</h2>
+                        <p>Music website which can able to play songs with user authentication. 
+                            It is done with the domain web development, Tools used in this are HTML,CSS,javaScript and PHP.
+                        </p>
+                        <a href="https://github.com/Hariprasad1232353/Music-website"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #000000;"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images-resources/work-2.png" alt="">
+                    <div class="layer">
+                        <h2>Card transaction analysis</h2>
+                        <p>Analysis of card transaction data using PYTHON 
+                            with Data Analytics domain.
+                             It has given valuable insights and visualizations
+                              to know fake transactions
+                        </p>
+                        <a href="https://github.com/Hariprasad1232353/EXPLORATORY-DATA-ANALYSIS-of-Card-Transaction-data-main"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #000000;"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images-resources/work-3.png" alt="">
+                    <div class="layer">
+                        <h2>Apple Stock Price prediction</h2>
+                        <p>Predicted the stock price of Apple company by analyzing the data gathered 
+                            from internet and by applying Machine learning algorithm such as Linear regression, KNN.
+                        </p>
+                        <a href="https://github.com/Hariprasad1232353/Apple-stock-price-prediction-main-"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #000000;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-title">Contact Me</h2>
+                    <p><i class="fa-solid fa-paper-plane" style="color: #7d169b;"></i>medikurthihariprasad25@gmail.com</p>
+                    <p><i class="fa-solid fa-phone" style="color: #7d169b;"></i> +91 1234567890</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100054358729833"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/medikurthi-hari-prasad-697419251/"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/hariprasad_medikurthi/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/medikurthi-hari-prasad-697419251/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Hariprasad1232353"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a href="images-resources/Medikurthi's Resume (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <!-- Form -->
+                    <form onsubmit="sendemail(); reset(); return false;">
+                        <input type="text" id="name" placeholder="NAME" required />
+                        <input type="email" id="email" placeholder="Email Address" required/>
+                        <textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i> Medikurthi Hariprasad Made with  <i class="fas fa-heart"></i> Medikurthi Hariprasad</p>
+    </div>
+    <a href="#" class="navtohome"><i class="fa-solid fa-arrow-up" style="color: #000000;"></i></a>
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        var navlists=document.getElementsByClassName("nav-list");
+        
+        function openSection(sectionName) {
+            const section = document.getElementById(sectionName);
+            if (section) {
+                section.scrollIntoView({
+                behavior: 'smooth' // Add smooth scrolling effect
+                });
+             }
+        }
+
+        function closeshow(listitem){
+            for (navlist of navlists){
+                navlist.classList.remove('close');
+            }
+            event.currentTarget.classList.add('close');
+            document.querySelector('nav ul').classList.remove('show');
+
+        }
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+        
+        const Home=document.querySelector(".navtohome");
+        window.addEventListener("scroll", ( ) =>{
+            if (window.pageYOffset>100){
+                Home.classList.add("active");
+            }
+            else {
+                Home.classList.remove("active");
+            }
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script >
+        (function(){
+            emailjs.init("2RYTHPUP4W-blb6qV");
+        })();
+    </script>
+    <script>
+        function sendemail(){
+            var params= {
+                from_name : document.getElementById("name").value,
+                email : document.getElementById("email").value,
+                message : document.getElementById("message").value
+            }
+            emailjs.send("service_u1t2kcm","template_w8l528a",params).then(function (res){
+                alert("Email sent successfully!");
+            })
+        
+        }
+    </script>
+</body>
+</html>
